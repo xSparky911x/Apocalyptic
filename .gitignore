@@ -3,6 +3,9 @@ saves/
 resourcepacks/
 journeymap/
 logs/
+bmc/
+advancedRocketry/
+asm/
 .curseclient
 minetweaker.log
 options.txt
