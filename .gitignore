@@ -6,6 +6,7 @@ logs/
 bmc/
 advancedRocketry/
 asm/
+backups/
 .curseclient
 BotaniaVars.dat
 betterfps.txt
@@ -30,3 +31,5 @@ config/BetterMinecraftChat/twitchintegration.json
 config/betterminecraftchat.cfg
 config/biomesoplenty/biomes/Put biome config files here
 advRocketry/temp.dat
+usercache.json
+usernamecache.json
