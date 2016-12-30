@@ -1,0 +1,239 @@
+                              
+                                  Welcome to §2§lApocalyptic§r§r
+
+[0.2.2]
+* Added harvestcraft seed drops to grass
+* Added Immersive Engineering
+* Removed Lootbags
+* Changed config for Spice of Life to not reset food history on death
+* Fixed quests requirements and added some more quests
+* Upgraded Better Questing
+* Upgraded Better Questing - Standard Expansion
+* Added market, Winter Gift and Large Winter Gift to JEI blacklist
+* Added MalisisDoors
+* Upgraded Better Questing - RF Expansion
+* Upgraded Actually Additions
+* Upgraded Advanced Rocketry
+* Upgraded Chisels & Bits
+* Upgraded CompatLayer
+* Upgraded Craft Tweaker
+* Upgraded EnderIO
+* Upgraded Forestry
+* Upgraded FTB Utilities
+* Upgraded Gravestone Mod as well as set grave break owner only
+* Upgraded InfinityLib
+* Upgraded JEI
+* Upgraded Lantern
+* Upgraded LibVulpes
+* Upgraded Quark
+* Upgraded RTG
+* Upgraded Refined Storage
+* Upgraded RF Tools
+* Upgraded Storage Drawers
+
+[0.2.1]
+* Upgraded Open Modular Passive Defense
+* Upgraded Storage Drawers
+* Upgraded CodeChicken Core
+* Upgraded CodeChicken Lib
+* Upgraded Ender Storage
+* Upgraded LootBags
+* Upgraded Refined Storage
+* Removed mobs from Lycanites Mobs that didn't fit pack theme
+* Added Quark
+* Changed Spice of Life food.history.length to 7 from 12
+* Added Advanced Rocketry
+* Removed villages from RTG world generation
+* Replaced defaultoptions mod with moredefaultoptions mod for server compatibility
+* Removed slime islands
+* Added redwood forest biome and coniferous forest biome to world generation
+* Upgraded Actually Additions
+* Upgraded Better Questing Triggerer
+* Upgraded Ender IO
+* Upgraded Forestry
+* Upgraded FTB Utilities
+* Upgraded FTB Lib
+* Upgraded JEI
+* Upgraded Morpheus
+* Upgraded RF Tools
+* Upgraded Storage Drawers
+
+TODO:
+* Add seed drops?
+
+[0.2.0]
+* Added Lantern
+* Upgraded Baubles
+* Added Better Questing - RF Expansion
+* Upgraded Blood Magic
+* Upgraded Chameleon
+* Upgraded Chisels & Bits
+* Upgraded CompatLayer
+* Upgraded EnderIO
+* Upgraded Forestry
+* Upgraded FTB Utilities
+* Upgraded FTB Lib
+* Upgraded Industrial Craft
+* Upgraded Journeymap
+* Upgraded JEI
+* Upgraded JER
+* Upgraded Mantle
+* Upgraded Menu Mobs
+* Upgraded RTG
+* Upgraded Refined Storage
+* Upgraded RF Tools Control
+* Upgraded Storage Drawers
+* Upgraded Tinkers Construct
+* Added Better Combat Mod
+* Added Open Modular Turrets
+* Added Open Modular Passive Defense
+* Added omlib
+* Upgraded Extra Utilities
+* Upgraded Ender Core
+* Ugraded Lootbags
+* Upgraded More Bees
+* Upgraded MP Utilities
+* Upgraded RF Tools
+* Removed Market recipe
+* Added Actually Additions
+* Bug - Can't hide recipes in JEI for some reason. Want to hide Market
+								  
+[0.1.9]
+* Upgraded to Forge 12.18.2.2185
+* Upgraded Better Questing
+* Upgraded Better Achievements
+* Upgraded Updated Chameleon
+* Added Chisels
+* Added Advanced Generators
+* Upgraded Ender IO
+* Upgraded Extra Utilities
+* Upgraded Forestry
+* Removed Deep Resonance
+* Upgraded Journeymap
+* Upgraded JEI
+* Upgraded Lycanite's Mobs
+* Upgraded Mantle
+* Upgraded Menu Mobs
+* Upgraded MP Utilities
+* Upgraded MP Utilities Basic Tools
+* Upgraded Refined Storage
+* Upgraded Sleeping Bag
+* Upgraded Storage Drawers
+* Added Botania
+
+								  
+[0.1.8]
+* Upgraded to Forge 12.18.2.2151
+* Added Reccurent Complex
+* Changed roguelike dungeons spawn frequency to 14 (60 dungeons to every 4800 blocks/300 chunk square)
+* Added appleskin -> shows food hunger and saturation levels
+* Re-Added crafttweaker
+* Changed extra utilities recipes for transfer nodes and pipes to 1.7.10 less op version
+* Upgraded Biomes O Plenty
+* Upgraded codechickenlib
+* Upgraded JEI
+* Upgraded JER
+* Upgraded shadowmc
+* Upgraded RTG
+* Upgraded Storage Drawers
+* Removed bloodmoon
+* Upgraded Extra Utilities (HUGE)
+* Upgraded Deep Resonance
+* Upgraded chameleon
+* Upgraded ElecCore
+* Upgraded Ender IO
+* Upgraded EnderCore
+* Upgraded Forestry
+* Upgraded Morpheous
+* Upgraded IVtoolkit
+* Added loot bags
+* Added RF Tools (no dimensions)
+* Added RF Tools Control
+* Added mountain peaks and moutain foothill to biome generation
+* Upgraded MP Utilities and MP Utilities Basic Tools
+* Upgraded Roots
+* Added More bees
+
+[0.1.7]
+* Added Default Options mod
+* Added Default World Generation mod and set to RTG
+* Ugraded to Forge 12.18.2.2125
+* Removed mud recipe as it was no longer needed now that biomes are working
+* Added Realistic Terrain Generation
+* Put Better Questing and BQ Standard expansion back in pack along with BQ Trigger (quest book)
+								  
+[0.1.6a]
+* Removed HQM
+* Added SimpleAchievements
+
+[0.1.5a]
+* Moved buttons on main menu to be visable in "Auto" GUI scale
+* Included "options.txt" in modpack with GUI scale set to "Normal"
+* Set edit mode in HQM to false
+* Updated MineTweaker RecipieMaker
+* Updated Forestry
+* Updated JEI
+* Removed SimpleInventoryStarter
+								  
+[0.1.4a]
+* Upgraded Forge to 12.18.2.2122
+* Added The Spice of Life
+* Added Sleeping Bag
+* Upgraded Storage Drawers
+* Upgraded Ender IO
+* Upgraded Ender Core
+* Upgraded Forestry
+* Upgraded JEI
+* Upgraded Lunatrius Core
+* Upgraded MCMultiPart
+* Upgraded Refined Storage
+* Upgraded JER
+* Upgraded Inventory Tweaks
+* Upgraded FTBUtilities
+* Upgraded FTBLib
+* Added CustomMainMenu and artwork
+* Added Resource Loader
+* Added Lonely Biome due to not being able to prevent vanilla biomes from spawning.
+* Set the only biome generating to Dead Forest
+* Added BiomeTweaker
+* Changed temperature to -0.2 (min -0.2 max 2.0). This allows rain to turn into snow and make the world look more nuclear winter style.
+* Added Deep Resonance
+* Added InGame Info for Blood Magic (not configured yet)
+* Added InGame Info for Deep Resonance (not configured yet)
+* Removed IC2 Copper ore and Tin Ore from generation
+* Added CraftTweaker
+* Added MineTweaker RecipeMaker
+* Added recipe for mud (water bucket with loamy dirt)
+* Removed Better Questing and its expansions
+* Added Hard core questing (HQM)
+* Added artwork to HQM and started quest line "The Beginning"
+
+  
+[0.1.3a]
+* Removed Weather, Storms & Tornadoes (a little too much frame lag for lower end PC's right now)
+* Removed Craft Tweaker (was causing client and server to not get along for some reason)
+* Removed Extra Tweaker (addon for Craft Tweaker)
+
+
+[0.1.2a]
+* Updated Forge to 12.18.2.2114
+* Fixed error in config for BiomeTweaker. Should properly read config and generate a better wasteland now
+* Lowered mob spawn multiplier for Lycanites' Mobs from 1.0 to 0.5 (half)
+* Added Fast Leaf Decay
+* Added Inventory Tweaks
+* Added Mouse Tweaks
+* Added Craft Tweaker
+* Added Extra Tweaker
+* Added Chisels & Bits
+* Added Roots
+* Added Better Achievements
+* Added Better Bedrock Gen
+* Added Tinkers' Tool Leveling
+* Added Login Shield
+* Added Hardcore Darkness
+* Added Weather, sotrms & tornadoes
+* Added Extra Utilities
+* Added In game info XML
+
+To do:
+* Maybe add some dead trees, shrubs, and dead plants
