@@ -1,6 +1,17 @@
                               
                                   Welcome to §2§lApocalyptic§r§r
 
+[0.2.3]
+* Added Dark Utilities
+* Added Architecture Craft
+* Upgraded Better Questing
+* Upgraded Forestry
+* Upgraded RF Tools
+* Upgraded Shadowfacts' Forgelin
+* Changed Architecture Craft's Large Pulley recipe to accept all planks and     all sticks
+* Upgraded Ender IO
+* Upgraded Journeymap
+
 [0.2.2]
 * Added harvestcraft seed drops to grass
 * Added Immersive Engineering
