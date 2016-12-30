@@ -1,3 +1,38 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:26a6b9a8c1c83bb21ca1b522d46969511b453692acd7a1762e436bcc2f78681e
-size 717
+{
+  "ftbu": {
+    "render_badges": true,
+    "journeymap_overlay": true
+  },
+  "sidebar_button": {
+    "ftbu": {
+      "guide": false,
+      "toggle": {
+        "night": true,
+        "gamemode": true,
+        "day": true,
+        "rain": true
+      },
+      "heal": true,
+      "trash_can": true,
+      "server_info": true,
+      "shop": true,
+      "claimed_chunks": true
+    },
+    "ftbl": {
+      "my_server_settings": true
+    }
+  },
+  "ftbl": {
+    "notifications": "screen",
+    "gui": {
+      "info": {
+        "border_width": 15,
+        "unicode": true,
+        "border_height": 15
+      },
+      "enable_chunk_selector_depth": true
+    },
+    "action_buttons_on_top": true,
+    "item_ore_names": true
+  }
+}

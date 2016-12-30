@@ -1,3 +1,97 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8599b060705149f7a18b79e81c32f8a0fbaa2b72b88d14526cfd7a344de5f8e7
-size 2357
+
+{
+  "ID": 101,
+  "Name": "Volcanic Island",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenVolcanicIsland",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "biomesoplenty:ash_block",
+  "Filler Block": "biomesoplenty:ash_block",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 1.2,
+  "Humidity": 0.2,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "HOT",
+    "DRY",
+    "DEAD",
+    "OCEAN",
+    "RIVER",
+    "MOUNTAIN",
+    "WASTELAND"
+  ],
+  "BiomeManager Entries": {
+    "DESERT Weights": [
+      50000,
+      50000
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "lycanite.lycanitesmobs.mountainmobs.entity.EntityYale",
+      "Weight": 7,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "lycanite.lycanitesmobs.desertmobs.entity.EntityCrusk",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.desertmobs.entity.EntityErepede",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.desertmobs.entity.EntityGorgomite",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.desertmobs.entity.EntityCryptZombie",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.mountainmobs.entity.EntityJabberwock",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.mountainmobs.entity.EntityTroll",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": true,
+  "Tweaked": true
+}

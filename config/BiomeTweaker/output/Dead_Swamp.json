@@ -1,3 +1,113 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:629b806336d15e3ee50ec6ae50d69b68e3902e280fc54b6adfe1b75dd564ecd2
-size 2782
+
+{
+  "ID": 53,
+  "Name": "Dead Swamp",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenDeadSwamp",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "biomesoplenty:grass",
+  "Filler Block": "biomesoplenty:dirt",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "10661201",
+  "Temperature": 0.55,
+  "Humidity": 0.9,
+  "Water Tint": 10661201,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "COLD",
+    "SPARSE",
+    "WET",
+    "SPOOKY",
+    "DEAD",
+    "SWAMP"
+  ],
+  "BiomeManager Entries": {
+    "WARM Weights": [
+      50000,
+      50000
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "biomesoplenty.common.entities.EntitySnail",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.swampmobs.entity.EntityAspid",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySlime",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.swampmobs.entity.EntityGhoulZombie",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.swampmobs.entity.EntityEyewig",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.arcticmobs.entity.EntitySerpix",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.shadowmobs.entity.EntityEpion",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.swampmobs.entity.EntityEttin",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.swampmobs.entity.EntityLurker",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.arcticmobs.entity.EntityFrostweaver",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": true,
+  "Tweaked": true
+}

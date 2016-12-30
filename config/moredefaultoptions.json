@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a837c7a44aa34d5ba701821d11bd915bef233c363a5d7eed550b508c035f0572
-size 267
+[
+	{
+		"sourceFilePath": "options.txt",
+		"destinationFilePath": "options.txt",
+		"serverSide": false,
+		"clientSide": true	
+	},
+	{
+		"sourceFilePath": "server.properties",
+		"destinationFilePath": "server.properties",
+		"serverSide": true,
+		"clientSide": false
+	}
+]

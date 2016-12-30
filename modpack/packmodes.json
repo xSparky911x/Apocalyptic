@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bc5cf56a837517a72193bb417a197207a1dab260cc432b97edb12a5ed6fbecca
-size 58
+{
+  "modes": [
+    "default"
+  ],
+  "default": "default"
+}

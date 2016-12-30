@@ -1,3 +1,86 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3d3ec1c43b88a161dc7de9a0efed3248267bb250b0cafa45ef6b1382f53edf3f
-size 2112
+
+{
+  "ID": 89,
+  "Name": "Wasteland",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenWasteland",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "biomesoplenty:dried_sand",
+  "Filler Block": "biomesoplenty:dried_sand",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "15073024",
+  "Temperature": 2.0,
+  "Humidity": 0.0,
+  "Water Tint": 15073024,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "SPARSE",
+    "DRY",
+    "DEAD",
+    "WASTELAND"
+  ],
+  "BiomeManager Entries": {
+    "COOL Weights": [
+      50000,
+      50000
+    ]
+  },
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySlime",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.desertmobs.entity.EntityCrusk",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.desertmobs.entity.EntityErepede",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.desertmobs.entity.EntityGorgomite",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lycanite.lycanitesmobs.desertmobs.entity.EntityCryptZombie",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": true,
+  "Tweaked": true
+}
