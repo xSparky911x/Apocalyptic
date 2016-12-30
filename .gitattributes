@@ -15,3 +15,9 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+<<<<<<< HEAD
+=======
+*.cfg  diff=astextplain
+*.json  diff=astextplain
+*.ini  diff=astextplain
+>>>>>>> origin/master
