@@ -3,14 +3,20 @@
 
 [0.2.3]
 * Added Dark Utilities
-* Added Architecture Craft
 * Upgraded Better Questing
 * Upgraded Forestry
 * Upgraded RF Tools
 * Upgraded Shadowfacts' Forgelin
-* Changed Architecture Craft's Large Pulley recipe to accept all planks and     all sticks
 * Upgraded Ender IO
 * Upgraded Journeymap
+* Removed Menu Mobs to fix custom main menu background glitch
+* Upgraded Actually Additions
+* Upgraded Apple Skin
+* Upgraded CodeChickenLib
+* Upgraded Ender COre
+* Upgraded Extra Utilities
+* Upgraded More Bees
+* Added Light Level Overlay Reloaded
 
 [0.2.2]
 * Added harvestcraft seed drops to grass
