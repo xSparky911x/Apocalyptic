@@ -13,7 +13,6 @@
 // ================================================================================
 //#MARKER REMOVE
 recipes.remove(<harvestcraft:market>);
-recipes.remove(<architecturecraft:largePulley>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -29,6 +28,7 @@ recipes.removeShaped(<extrautils2:pipe> * 64, [[<ore:slabStone>, <ore:slabStone>
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<actuallyadditions:itemMisc:5> * 4, [<actuallyadditions:blockMisc:2>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
@@ -37,4 +37,3 @@ recipes.addShaped(<extrautils2:Grocket:2> * 4, [[null, <extrautils2:pipe>, null]
 recipes.addShaped(<extrautils2:Grocket> * 4, [[null, <extrautils2:pipe>, null], [<ore:dustRedstone>, <minecraft:ender_pearl>, <ore:dustRedstone>], [<ore:stone>, <ore:chest>, <ore:stone>]]);
 recipes.addShaped(<extrautils2:Grocket>, [[null, <extrautils2:pipe>, null], [<ore:dustRedstone>, <ore:blockRedstone>, <ore:dustRedstone>], [<ore:stone>, <ore:chest>, <ore:stone>]]);
 recipes.addShaped(<extrautils2:pipe> * 8, [[<ore:slabStone>, <ore:slabStone>, <ore:slabStone>], [<ore:blockGlass>, <ore:dustRedstone>, <ore:blockGlass>], [<ore:slabStone>, <ore:slabStone>, <ore:slabStone>]]);
-recipes.addShaped(<architecturecraft:largePulley>, [[null, <ore:plankWood>, null], [<ore:plankWood>, <ore:stickWood>, <ore:plankWood>], [null, <ore:plankWood>, null]]);

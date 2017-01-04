@@ -17,6 +17,12 @@
 * Upgraded Extra Utilities
 * Upgraded More Bees
 * Added Light Level Overlay Reloaded
+* Removed Lycanite's Mobs
+* Upgraded ShadowMC
+* Upgraded JEI
+* Added Flat Colored Blocks
+* Added Chest Transporter
+* Added recipe to change Block of Black Quartz back to Black Quartz x 4
 
 [0.2.2]
 * Added harvestcraft seed drops to grass

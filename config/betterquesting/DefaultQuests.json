@@ -1,35 +1,41 @@
 {
-  "editMode": true,
-  "hardcore": false,
-  "defLives": 3,
-  "maxLives": 10,
+  "questSettings": {
+    "betterquesting": {
+      "home_anchor_y": 0.0,
+      "home_anchor_x": 0.5,
+      "hardcore": false,
+      "home_image": "betterquesting:textures/gui/default_title.png",
+      "editMode": true,
+      "home_offset_x": -128,
+      "home_offset_y": 0
+    }
+  },
   "questDatabase": [
     {
-      "questID": 0,
-      "name": "Gearing Up",
-      "description": "Now that you have some basic supplies and hopefully by now a very basic shelter built you need to start thinking about some of the basic survival tools. Gather some more wood if needed and build a set of basic tools.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "isMain": "false",
+          "simultaneous": "false",
+          "icon": {
+            "id": "minecraft:wooden_sword",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": "true",
+          "questLogic": "AND",
+          "name": "Gearing Up",
+          "isGlobal": "false",
+          "lockedProgress": "false",
+          "autoClaim": "false",
+          "isSilent": "false",
+          "desc": "Now that you have some basic supplies and hopefully by now a very basic shelter built you need to start thinking about some of the basic survival tools. Gather some more wood if needed and build a set of basic tools."
+        }
       },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:wooden_sword",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -42,7 +48,8 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:crafting",
+          "index": 0
         },
         {
           "partialMatch": false,
@@ -79,7 +86,8 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:crafting",
+          "index": 1
         }
       ],
       "rewards": [
@@ -98,39 +106,40 @@
               "Damage": 0
             }
           ],
-          "rewardID": "bq_standard:choice"
+          "rewardID": "bq_standard:choice",
+          "index": 0
         }
       ],
       "preRequisites": [
         1
-      ]
+      ],
+      "questID": 0
     },
     {
-      "questID": 1,
-      "name": "The Basics",
-      "description": "After that crash landing you literally have nothing! No food, no tools and no supplies. You need to quickly gather some supplies to build some kind of shelter for your self before the night arrives. With nothing on this planet it is extremely dark at night. No nearby towns, no street lights and your flashlight was part of the detroyed supplies you once had.",
-      "isMain": true,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "isMain": "true",
+          "simultaneous": "false",
+          "icon": {
+            "id": "minecraft:log",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": "true",
+          "questLogic": "AND",
+          "name": "The Basics",
+          "isGlobal": "false",
+          "lockedProgress": "false",
+          "autoClaim": "false",
+          "isSilent": "false",
+          "desc": "After that crash landing you literally have nothing! No food, no tools and no supplies. You need to quickly gather some supplies to build some kind of shelter for your self before the night arrives. With nothing on this planet it is extremely dark at night. No nearby towns, no street lights and your flashlight was part of the detroyed supplies you once had."
+        }
       },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:log",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -145,7 +154,8 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:retrieval"
+          "taskID": "bq_standard:retrieval",
+          "index": 0
         }
       ],
       "rewards": [
@@ -170,37 +180,38 @@
               "Damage": 0
             }
           ],
-          "rewardID": "bq_standard:item"
+          "rewardID": "bq_standard:item",
+          "index": 0
         }
       ],
-      "preRequisites": []
+      "preRequisites": [],
+      "questID": 1
     },
     {
-      "questID": 2,
-      "name": "Stronger",
-      "description": "After using your basic tools, you have come to realize they just do not last very long at all. You need to make a stronger tool for everything. Go and gather some resources in the form of ore and make a stronger set of tools.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "isMain": "false",
+          "simultaneous": "false",
+          "icon": {
+            "id": "minecraft:iron_ore",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": "true",
+          "questLogic": "AND",
+          "name": "Stronger",
+          "isGlobal": "false",
+          "lockedProgress": "false",
+          "autoClaim": "false",
+          "isSilent": "false",
+          "desc": "After using your basic tools, you have come to realize they just do not last very long at all. You need to make a stronger tool for everything. Go and gather some resources in the form of ore and make a stronger set of tools."
+        }
       },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:iron_ore",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -215,7 +226,8 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:retrieval"
+          "taskID": "bq_standard:retrieval",
+          "index": 0
         },
         {
           "partialMatch": true,
@@ -252,7 +264,8 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:crafting",
+          "index": 1
         }
       ],
       "rewards": [
@@ -283,39 +296,40 @@
               "Damage": 0
             }
           ],
-          "rewardID": "bq_standard:item"
+          "rewardID": "bq_standard:item",
+          "index": 0
         }
       ],
       "preRequisites": [
         3
-      ]
+      ],
+      "questID": 2
     },
     {
-      "questID": 3,
-      "name": "Hot Topic",
-      "description": "Finding resources underground is always useful but what to do with it all? You need to melt it down to remove any impurities and make better materials that you can actually use.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "isMain": "false",
+          "simultaneous": "false",
+          "icon": {
+            "id": "minecraft:furnace",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": "true",
+          "questLogic": "AND",
+          "name": "Hot Topic",
+          "isGlobal": "false",
+          "lockedProgress": "false",
+          "autoClaim": "false",
+          "isSilent": "false",
+          "desc": "Finding resources underground is always useful but what to do with it all? You need to melt it down to remove any impurities and make better materials that you can actually use."
+        }
       },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:furnace",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -328,7 +342,8 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:crafting",
+          "index": 0
         }
       ],
       "rewards": [
@@ -341,39 +356,40 @@
               "Damage": 0
             }
           ],
-          "rewardID": "bq_standard:item"
+          "rewardID": "bq_standard:item",
+          "index": 0
         }
       ],
       "preRequisites": [
         0
-      ]
+      ],
+      "questID": 3
     },
     {
-      "questID": 4,
-      "name": "Gone Fishing",
-      "description": "All this hard work gathering is sure working up an appetite. The only problem is you are getting tired of the same old food. I wonder if there are still fish in the water in this world...",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "isMain": "false",
+          "simultaneous": "false",
+          "icon": {
+            "id": "minecraft:fishing_rod",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": "true",
+          "questLogic": "AND",
+          "name": "Gone Fishing",
+          "isGlobal": "false",
+          "lockedProgress": "false",
+          "autoClaim": "false",
+          "isSilent": "false",
+          "desc": "All this hard work gathering is sure working up an appetite. The only problem is you are getting tired of the same old food. I wonder if there are still fish in the water in this world..."
+        }
       },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:fishing_rod",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -388,7 +404,8 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:retrieval"
+          "taskID": "bq_standard:retrieval",
+          "index": 0
         },
         {
           "partialMatch": true,
@@ -401,7 +418,8 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:crafting",
+          "index": 1
         },
         {
           "partialMatch": true,
@@ -416,7 +434,8 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:retrieval"
+          "taskID": "bq_standard:retrieval",
+          "index": 2
         },
         {
           "partialMatch": true,
@@ -429,7 +448,8 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:crafting",
+          "index": 3
         }
       ],
       "rewards": [
@@ -442,39 +462,40 @@
               "Damage": 0
             }
           ],
-          "rewardID": "bq_standard:item"
+          "rewardID": "bq_standard:item",
+          "index": 0
         }
       ],
       "preRequisites": [
         5
-      ]
+      ],
+      "questID": 4
     },
     {
-      "questID": 5,
-      "name": "I\u0027m Hungry",
-      "description": "Everyone needs to eat to survive but food seems to be scarce in this environment. You need to get back to the basics and start growing some renewable food resources before you die of starvation.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "isMain": "false",
+          "simultaneous": "false",
+          "icon": {
+            "id": "minecraft:wheat",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": "true",
+          "questLogic": "AND",
+          "name": "I\u0027m Hungry",
+          "isGlobal": "false",
+          "lockedProgress": "false",
+          "autoClaim": "false",
+          "isSilent": "false",
+          "desc": "Everyone needs to eat to survive but food seems to be scarce in this environment. You need to get back to the basics and start growing some renewable food resources before you die of starvation."
+        }
       },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:wheat",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -489,7 +510,8 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:retrieval"
+          "taskID": "bq_standard:retrieval",
+          "index": 0
         },
         {
           "partialMatch": true,
@@ -502,7 +524,8 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting"
+          "taskID": "bq_standard:crafting",
+          "index": 1
         },
         {
           "partialMatch": true,
@@ -513,11 +536,12 @@
             {
               "id": "harvestcraft:toastItem",
               "Count": 3,
-              "OreDict": "",
+              "OreDict": "foodToast",
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:retrieval"
+          "taskID": "bq_standard:retrieval",
+          "index": 2
         }
       ],
       "rewards": [
@@ -530,39 +554,40 @@
               "Damage": 1
             }
           ],
-          "rewardID": "bq_standard:item"
+          "rewardID": "bq_standard:item",
+          "index": 0
         }
       ],
       "preRequisites": [
         0
-      ]
+      ],
+      "questID": 5
     },
     {
-      "questID": 6,
-      "name": "Holy Cow!",
-      "description": "It sure is nice to see some familiar faces, even if they don\u0027t speak your language. Thank goodness there is plenty of livestock around this world because you gotta eat. Harvest some meat for your food collection.",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "isMain": "false",
+          "simultaneous": "false",
+          "icon": {
+            "id": "minecraft:beef",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": "true",
+          "questLogic": "AND",
+          "name": "Holy Cow!",
+          "isGlobal": "false",
+          "lockedProgress": "false",
+          "autoClaim": "false",
+          "isSilent": "false",
+          "desc": "It sure is nice to see some familiar faces, even if they don\u0027t speak your language. Thank goodness there is plenty of livestock around this world because you gotta eat. Harvest some meat for your food collection."
+        }
       },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:beef",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -595,91 +620,534 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:retrieval"
+          "taskID": "bq_standard:retrieval",
+          "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "cookingforblockheads:oven",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         5
-      ]
+      ],
+      "questID": 6
     },
     {
-      "questID": 7,
-      "name": "New Quest",
-      "description": "No Description",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "isMain": "false",
+          "simultaneous": "false",
+          "icon": {
+            "id": "minecraft:spawn_egg",
+            "Count": 1,
+            "tag": {
+              "EntityTag:10": {
+                "id:8": "Cow"
+              }
+            },
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": "true",
+          "questLogic": "AND",
+          "name": "Repopulation",
+          "isGlobal": "false",
+          "lockedProgress": "false",
+          "autoClaim": "false",
+          "isSilent": "false",
+          "desc": "Finding livestock still roaming the earth is a key part to surviving but the selection is limited. In order to preserve the population you need to get some farms setup and start breeding some livestock."
+        }
       },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:nether_star",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
+      "tasks": [
+        {
+          "target": "Cow",
+          "range": 4,
+          "amount": 1,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              }
+            },
+            "ForcedAge:3": 0,
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "InLove:3": 0,
+            "DeathTime:2": 0,
+            "HandDropChances:9": {
+              "5": 0.085
+            },
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "bettercombatmod:ISecondHurtTimer:3": 0,
+              "bettercombatmod:IOffHandAttack:3": 0
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "Cow",
+            "Age:3": -1,
+            "Motion:9": {
+              "6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -9112333730757328568,
+            "Health:5": 10.0,
+            "LeftHanded:1": 0,
+            "Dimension:3": 0,
+            "OnGround:1": 0,
+            "Air:2": 0,
+            "Rotation:9": {
+              "5": 0.0
+            },
+            "HandItems:9": {
+              "10": {}
+            },
+            "ArmorDropChances:9": {
+              "5": 0.085
+            },
+            "UUIDMost:4": 3033981030165794110,
+            "Pos:9": {
+              "6": 0.0
+            },
+            "ArmorItems:9": {
+              "10": {}
+            },
+            "Fire:2": 0,
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "taskID": "bq_standard:meeting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "EntityTag:10": {
+                  "id:8": "Pig"
+                }
+              }
+            },
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "EntityTag:10": {
+                  "id:8": "Sheep"
+                }
+              }
+            },
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "EntityTag:10": {
+                  "id:8": "Cow"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        5
+      ],
+      "questID": 7
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "isMain": "false",
+          "simultaneous": "false",
+          "icon": {
+            "id": "minecraft:diamond_ore",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": "false",
+          "questLogic": "AND",
+          "name": "All you Ore",
+          "lockedProgress": "false",
+          "autoClaim": "true",
+          "isSilent": "false",
+          "desc": "Diggin deeper and deeper into the ground you are discovering more and more resources that could really prove to be useful. How far can you go? What can you find?"
+        }
       },
-      "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": []
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:gold_ore",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "libvulpes:ore0",
+              "Count": 16,
+              "OreDict": "oreCopper",
+              "Damage": 4
+            },
+            {
+              "id": "ic2:resource",
+              "Count": 16,
+              "OreDict": "oreLead",
+              "Damage": 2
+            },
+            {
+              "id": "libvulpes:ore0",
+              "Count": 16,
+              "OreDict": "oreAluminum",
+              "Damage": 9
+            },
+            {
+              "id": "libvulpes:ore0",
+              "Count": 16,
+              "OreDict": "oreTin",
+              "Damage": 5
+            },
+            {
+              "id": "minecraft:diamond",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "forestry:minerBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "forestry:diggerBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 8
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "isMain": "false",
+          "simultaneous": "false",
+          "icon": {
+            "id": "minecraft:bone",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": "false",
+          "questLogic": "AND",
+          "name": "Kill Or Be Killed",
+          "lockedProgress": "false",
+          "autoClaim": "false",
+          "isSilent": "false",
+          "desc": "What are these monsters?? Zombies? Walking skeletons? You must defend youself!"
+        }
+      },
+      "tasks": [
+        {
+          "target": "Zombie",
+          "required": 5,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {},
+          "taskID": "bq_standard:hunt",
+          "index": 0
+        },
+        {
+          "target": "Skeleton",
+          "required": 5,
+          "subtypes": true,
+          "ignoreNBT": true,
+          "targetNBT": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "SkeletonType:1": 0,
+            "HandDropChances:9": {
+              "5": 0.085
+            },
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "bettercombatmod:ISecondHurtTimer:3": 0,
+              "bettercombatmod:IOffHandAttack:3": 0
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "Skeleton",
+            "Motion:9": {
+              "6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -6054148669662362877,
+            "Health:5": 20.0,
+            "LeftHanded:1": 0,
+            "Dimension:3": 0,
+            "OnGround:1": 0,
+            "Air:2": 0,
+            "Rotation:9": {
+              "5": 0.0
+            },
+            "HandItems:9": {
+              "10": {}
+            },
+            "ArmorDropChances:9": {
+              "5": 0.085
+            },
+            "UUIDMost:4": 7805470178343930391,
+            "Pos:9": {
+              "6": 0.0
+            },
+            "ArmorItems:9": {
+              "10": {}
+            },
+            "Fire:2": 0,
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "taskID": "bq_standard:hunt",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 10,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp",
+          "index": 0
+        },
+        {
+          "rewards": [
+            {
+              "id": "minecraft:saddle",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        2
+      ],
+      "questID": 9
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "isMain": "false",
+          "simultaneous": "false",
+          "icon": {
+            "id": "minecraft:enchanting_table",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": "false",
+          "questLogic": "AND",
+          "name": "Ancient Magic",
+          "lockedProgress": "false",
+          "autoClaim": "false",
+          "isSilent": "false",
+          "desc": "Back on the station, there has always been talk of ancient magic. Can it be true?"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:enchanting_table",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:bookshelf",
+              "Count": 13,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        8
+      ],
+      "questID": 10
     }
   ],
   "questLines": [
     {
-      "name": "The Beginning",
-      "description": "100 years after the humans have made Earth completely uninhabitable from nuclear war, you have been chosen to be sent back down to the surface from the failing space where you were born to see if Earth can once again be populated. The re-entry into the atmosphere didn\u0027t go as planned and all of your equipment has been destroyed. Unable to locate any of your comrades you are all alone on the surface of what might be, your death sentence... or at least you think you are alone...",
+      "properties": {
+        "betterquesting": {
+          "name": "The Beginning",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "100 years after the humans have made Earth completely uninhabitable from nuclear war, you have been chosen to be sent back down to the surface from the failing space where you were born to see if Earth can once again be populated. The re-entry into the atmosphere didn\u0027t go as planned and all of your equipment has been destroyed. Unable to locate any of your comrades you are all alone on the surface of what might be, your death sentence... or at least you think you are alone..."
+        }
+      },
       "quests": [
         {
-          "id": 1,
+          "size": 24,
           "x": 0,
-          "y": 0
+          "y": 36,
+          "id": 0
         },
         {
-          "id": 0,
+          "size": 24,
+          "x": 0,
+          "y": 0,
+          "id": 1
+        },
+        {
+          "size": 24,
+          "x": 72,
+          "y": 36,
+          "id": 2
+        },
+        {
+          "size": 24,
           "x": 36,
-          "y": 0
+          "y": 36,
+          "id": 3
         },
         {
-          "id": 2,
+          "size": 24,
+          "x": 0,
+          "y": 108,
+          "id": 4
+        },
+        {
+          "size": 24,
+          "x": 0,
+          "y": 72,
+          "id": 5
+        },
+        {
+          "size": 24,
+          "x": 36,
+          "y": 108,
+          "id": 6
+        },
+        {
+          "size": 24,
+          "x": -36,
+          "y": 108,
+          "id": 7
+        },
+        {
+          "size": 24,
           "x": 108,
-          "y": 0
+          "y": 36,
+          "id": 8
         },
         {
-          "id": 3,
+          "size": 24,
           "x": 72,
-          "y": 0
+          "y": 72,
+          "id": 9
         },
         {
-          "id": 4,
-          "x": 36,
-          "y": 72
-        },
-        {
-          "id": 5,
-          "x": 36,
-          "y": 36
-        },
-        {
-          "id": 6,
-          "x": 72,
-          "y": 72
-        },
-        {
-          "id": 7,
-          "x": 0,
-          "y": 72
+          "size": 24,
+          "x": 144,
+          "y": 36,
+          "id": 10
         }
-      ]
+      ],
+      "lineID": 0,
+      "order": 0
     }
-  ]
+  ],
+  "format": "1.0.0"
 }

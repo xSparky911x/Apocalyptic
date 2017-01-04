@@ -24,6 +24,18 @@
   "Spawnable Creatures": [],
   "Spawnable Monsters": [
     {
+      "Entity Class": "net.minecraft.entity.monster.EntityGhast",
+      "Weight": 50,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityPigZombie",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
       "Entity Class": "net.minecraft.entity.monster.EntityMagmaCube",
       "Weight": 2,
       "Min Group Count": 4,
@@ -46,18 +58,6 @@
       "Weight": 20,
       "Min Group Count": 1,
       "Max Group Count": 3
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityPigZombie",
-      "Weight": 100,
-      "Min Group Count": 1,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityGhast",
-      "Weight": 50,
-      "Min Group Count": 1,
-      "Max Group Count": 2
     }
   ],
   "Spawnable Water Creatures": [],

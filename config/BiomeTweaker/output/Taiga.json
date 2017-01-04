@@ -61,7 +61,25 @@
   ],
   "Spawnable Monsters": [
     {
+      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
       "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
       "Weight": 100,
       "Min Group Count": 4,
       "Max Group Count": 4
@@ -79,6 +97,12 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "net.minecraft.entity.monster.EntityWitch",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
       "Entity Class": "vazkii.quark.world.entity.EntityDweller",
       "Weight": 10,
       "Min Group Count": 1,
@@ -87,24 +111,6 @@
     {
       "Entity Class": "vazkii.quark.world.entity.EntityAshen",
       "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "lycanite.lycanitesmobs.arcticmobs.entity.EntitySerpix",
-      "Weight": 2,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "lycanite.lycanitesmobs.forestmobs.entity.EntityWarg",
-      "Weight": 2,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "lycanite.lycanitesmobs.arcticmobs.entity.EntityFrostweaver",
-      "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 2
     }

@@ -52,17 +52,23 @@
       "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "lycanite.lycanitesmobs.junglemobs.entity.EntityConcapedeHead",
-      "Weight": 9,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     }
   ],
   "Spawnable Monsters": [
     {
       "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
       "Weight": 100,
       "Min Group Count": 4,
       "Max Group Count": 4
@@ -86,6 +92,12 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "net.minecraft.entity.monster.EntityWitch",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
       "Entity Class": "net.minecraft.entity.passive.EntityOcelot",
       "Weight": 2,
       "Min Group Count": 1,
@@ -100,30 +112,6 @@
     {
       "Entity Class": "vazkii.quark.world.entity.EntityAshen",
       "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "lycanite.lycanitesmobs.junglemobs.entity.EntityVespidQueen",
-      "Weight": 1,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "lycanite.lycanitesmobs.junglemobs.entity.EntityVespid",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 6
-    },
-    {
-      "Entity Class": "lycanite.lycanitesmobs.junglemobs.entity.EntityConba",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "lycanite.lycanitesmobs.junglemobs.entity.EntityTarantula",
-      "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 2
     }

@@ -22,6 +22,12 @@
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
+      "Entity Class": "net.minecraft.entity.passive.EntitySheep",
+      "Weight": 12,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
       "Entity Class": "net.minecraft.entity.passive.EntityPig",
       "Weight": 10,
       "Min Group Count": 4,
@@ -34,13 +40,37 @@
       "Max Group Count": 4
     },
     {
-      "Entity Class": "lycanite.lycanitesmobs.swampmobs.entity.EntityAspid",
-      "Weight": 6,
-      "Min Group Count": 1,
-      "Max Group Count": 5
+      "Entity Class": "net.minecraft.entity.passive.EntityCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
     {
       "Entity Class": "net.minecraft.entity.monster.EntitySlime",
       "Weight": 100,
@@ -76,30 +106,6 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 2
-    },
-    {
-      "Entity Class": "lycanite.lycanitesmobs.swampmobs.entity.EntityGhoulZombie",
-      "Weight": 4,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "lycanite.lycanitesmobs.swampmobs.entity.EntityEyewig",
-      "Weight": 2,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "lycanite.lycanitesmobs.swampmobs.entity.EntityEttin",
-      "Weight": 2,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "lycanite.lycanitesmobs.swampmobs.entity.EntityLurker",
-      "Weight": 3,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [
