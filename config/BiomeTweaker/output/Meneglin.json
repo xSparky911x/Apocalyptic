@@ -1,24 +1,23 @@
 
 {
-  "ID": 41,
-  "Name": "Space",
-  "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenSpace",
-  "Root Height": -2.0,
-  "Height Variation": 0.0,
-  "Top Block": "minecraft:air",
-  "Filler Block": "minecraft:air",
+  "ID": 40,
+  "Name": "Meneglin",
+  "Class": "org.cyclops.integrateddynamics.world.biome.BiomeMeneglin",
+  "Root Height": 0.4,
+  "Height Variation": 0.4,
+  "Top Block": "minecraft:grass",
+  "Filler Block": "minecraft:dirt",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
-  "Water Color": "16777215",
-  "Temperature": 1.0,
-  "Humidity": 0.5,
-  "Water Tint": 16777215,
-  "Enable Rain": false,
+  "Water Color": "5627304",
+  "Temperature": 0.75,
+  "Humidity": 0.25,
+  "Water Tint": 5627304,
+  "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "RIVER",
-    "PLAINS"
+    "COLD",
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -107,6 +106,6 @@
       "Max Group Count": 8
     }
   ],
-  "Spawn Biome": false,
+  "Spawn Biome": true,
   "Tweaked": true
 }
