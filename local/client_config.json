@@ -6,13 +6,6 @@
   "sidebar_button": {
     "ftbu": {
       "guide": false,
-      "toggle": {
-        "night": true,
-        "gamemode": true,
-        "day": true,
-        "rain": true
-      },
-      "heal": true,
       "trash_can": true,
       "server_info": true,
       "shop": true,

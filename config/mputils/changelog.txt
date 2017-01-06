@@ -23,6 +23,7 @@
 * Added Flat Colored Blocks
 * Added Chest Transporter
 * Added recipe to change Block of Black Quartz back to Black Quartz x 4
+* Added NEI addon to JEI, makes JEI work like the old NEI system
 
 [0.2.2]
 * Added harvestcraft seed drops to grass
