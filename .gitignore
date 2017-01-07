@@ -1,3 +1,5 @@
+crash-reports/
+fonts/
 mputils/
 mods/
 saves/
@@ -15,19 +17,7 @@ betterfps.txt
 minetweaker.log
 options.txt
 minecraftinstance.json
-config/BetterAchievements/DropShip toUnlockAchievements.dat
-config/BetterAchievements/MpServer toUnlockAchievements.dat
-config/BetterAchievements/My_World toUnlockAchievements.dat
-config/BetterAchievements/New_World toUnlockAchievements.dat
-config/BetterAchievements/New_World2 toUnlockAchievements.dat
-config/BetterAchievements/New_World3 toUnlockAchievements.dat
-config/BetterAchievements/New_World5 toUnlockAchievements.dat
-config/BetterAchievements/New_World7 toUnlockAchievements.dat
-config/BetterAchievements/New_World8 toUnlockAchievements.dat
-config/BetterAchievements/Test_World_1 toUnlockAchievements.dat
-config/BetterAchievements/Test_World_2 toUnlockAchievements.dat
-config/BetterAchievements/world toUnlockAchievements.dat
-config/BetterAchievements/12_23_16 toUnlockAchievements.dat
+config/BetterAchievements/*.dat
 config/BetterMinecraftChat/channels.json
 config/BetterMinecraftChat/twitchintegration.json
 config/betterminecraftchat.cfg
@@ -35,3 +25,5 @@ config/biomesoplenty/biomes/Put biome config files here
 usercache.json
 usernamecache.json
 TimeUsage.txt
+config/splash.properties
+config/chiselsandbits_clipboard.cfg
