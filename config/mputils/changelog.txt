@@ -2,6 +2,7 @@
                                   Welcome to §2§lApocalyptic§r§r
 
 [0.2.3]
+* Upgraded Forge to 2202
 * Added Dark Utilities
 * Upgraded Better Questing
 * Upgraded Forestry
@@ -13,10 +14,9 @@
 * Upgraded Actually Additions
 * Upgraded Apple Skin
 * Upgraded CodeChickenLib
-* Upgraded Ender COre
+* Upgraded Ender Core
 * Upgraded Extra Utilities
 * Upgraded More Bees
-* Added Light Level Overlay Reloaded
 * Removed Lycanite's Mobs
 * Upgraded ShadowMC
 * Upgraded JEI
@@ -24,6 +24,12 @@
 * Added Chest Transporter
 * Added recipe to change Block of Black Quartz back to Black Quartz x 4
 * Added NEI addon to JEI, makes JEI work like the old NEI system
+* Upgraded LibVulpes
+* Upgraded Recurrent Complex
+* Upgraded Advanced Rocketry
+* Removed Inventory Tweaks - Buggy
+* Upgraded Craft Tweaker
+* Upgraded Sonar Core
 
 [0.2.2]
 * Added harvestcraft seed drops to grass
