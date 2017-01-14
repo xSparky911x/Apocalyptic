@@ -16,8 +16,8 @@
         "betterquesting": {
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
-          "isMain": "false",
-          "simultaneous": "false",
+          "isMain": false,
+          "simultaneous": false,
           "icon": {
             "id": "minecraft:wooden_sword",
             "Count": 1,
@@ -26,13 +26,13 @@
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
-          "globalShare": "true",
+          "globalShare": true,
           "questLogic": "AND",
           "name": "Gearing Up",
           "isGlobal": "false",
-          "lockedProgress": "false",
-          "autoClaim": "false",
-          "isSilent": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
           "desc": "Now that you have some basic supplies and hopefully by now a very basic shelter built you need to start thinking about some of the basic survival tools. Gather some more wood if needed and build a set of basic tools."
         }
       },
@@ -120,8 +120,8 @@
         "betterquesting": {
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
-          "isMain": "true",
-          "simultaneous": "false",
+          "isMain": true,
+          "simultaneous": false,
           "icon": {
             "id": "minecraft:log",
             "Count": 1,
@@ -130,13 +130,13 @@
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
-          "globalShare": "true",
+          "globalShare": true,
           "questLogic": "AND",
           "name": "The Basics",
           "isGlobal": "false",
-          "lockedProgress": "false",
-          "autoClaim": "false",
-          "isSilent": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
           "desc": "After that crash landing you literally have nothing! No food, no tools and no supplies. You need to quickly gather some supplies to build some kind of shelter for your self before the night arrives. With nothing on this planet it is extremely dark at night. No nearby towns, no street lights and your flashlight was part of the detroyed supplies you once had."
         }
       },
@@ -192,8 +192,8 @@
         "betterquesting": {
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
-          "isMain": "false",
-          "simultaneous": "false",
+          "isMain": false,
+          "simultaneous": false,
           "icon": {
             "id": "minecraft:iron_ore",
             "Count": 1,
@@ -202,13 +202,13 @@
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
-          "globalShare": "true",
+          "globalShare": true,
           "questLogic": "AND",
           "name": "Stronger",
           "isGlobal": "false",
-          "lockedProgress": "false",
-          "autoClaim": "false",
-          "isSilent": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
           "desc": "After using your basic tools, you have come to realize they just do not last very long at all. You need to make a stronger tool for everything. Go and gather some resources in the form of ore and make a stronger set of tools."
         }
       },
@@ -310,8 +310,8 @@
         "betterquesting": {
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
-          "isMain": "false",
-          "simultaneous": "false",
+          "isMain": false,
+          "simultaneous": false,
           "icon": {
             "id": "minecraft:furnace",
             "Count": 1,
@@ -320,13 +320,13 @@
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
-          "globalShare": "true",
+          "globalShare": true,
           "questLogic": "AND",
           "name": "Hot Topic",
           "isGlobal": "false",
-          "lockedProgress": "false",
-          "autoClaim": "false",
-          "isSilent": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
           "desc": "Finding resources underground is always useful but what to do with it all? You need to melt it down to remove any impurities and make better materials that you can actually use."
         }
       },
@@ -370,8 +370,8 @@
         "betterquesting": {
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
-          "isMain": "false",
-          "simultaneous": "false",
+          "isMain": false,
+          "simultaneous": false,
           "icon": {
             "id": "minecraft:fishing_rod",
             "Count": 1,
@@ -380,13 +380,13 @@
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
-          "globalShare": "true",
+          "globalShare": true,
           "questLogic": "AND",
           "name": "Gone Fishing",
           "isGlobal": "false",
-          "lockedProgress": "false",
-          "autoClaim": "false",
-          "isSilent": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
           "desc": "All this hard work gathering is sure working up an appetite. The only problem is you are getting tired of the same old food. I wonder if there are still fish in the water in this world..."
         }
       },
@@ -476,8 +476,8 @@
         "betterquesting": {
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
-          "isMain": "false",
-          "simultaneous": "false",
+          "isMain": false,
+          "simultaneous": false,
           "icon": {
             "id": "minecraft:wheat",
             "Count": 1,
@@ -486,13 +486,13 @@
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
-          "globalShare": "true",
+          "globalShare": true,
           "questLogic": "AND",
           "name": "I\u0027m Hungry",
           "isGlobal": "false",
-          "lockedProgress": "false",
-          "autoClaim": "false",
-          "isSilent": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
           "desc": "Everyone needs to eat to survive but food seems to be scarce in this environment. You need to get back to the basics and start growing some renewable food resources before you die of starvation."
         }
       },
@@ -568,8 +568,8 @@
         "betterquesting": {
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
-          "isMain": "false",
-          "simultaneous": "false",
+          "isMain": false,
+          "simultaneous": false,
           "icon": {
             "id": "minecraft:beef",
             "Count": 1,
@@ -578,13 +578,13 @@
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
-          "globalShare": "true",
+          "globalShare": true,
           "questLogic": "AND",
           "name": "Holy Cow!",
           "isGlobal": "false",
-          "lockedProgress": "false",
-          "autoClaim": "false",
-          "isSilent": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
           "desc": "It sure is nice to see some familiar faces, even if they don\u0027t speak your language. Thank goodness there is plenty of livestock around this world because you gotta eat. Harvest some meat for your food collection."
         }
       },
@@ -648,28 +648,28 @@
         "betterquesting": {
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
-          "isMain": "false",
-          "simultaneous": "false",
+          "isMain": false,
+          "simultaneous": false,
           "icon": {
             "id": "minecraft:spawn_egg",
             "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
             "tag": {
               "EntityTag:10": {
                 "id:8": "Cow"
               }
-            },
-            "OreDict": "",
-            "Damage": 0
+            }
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
-          "globalShare": "true",
+          "globalShare": true,
           "questLogic": "AND",
           "name": "Repopulation",
           "isGlobal": "false",
-          "lockedProgress": "false",
-          "autoClaim": "false",
-          "isSilent": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
           "desc": "Finding livestock still roaming the earth is a key part to surviving but the selection is limited. In order to preserve the population you need to get some farms setup and start breeding some livestock."
         }
       },
@@ -793,8 +793,8 @@
         "betterquesting": {
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
-          "isMain": "false",
-          "simultaneous": "false",
+          "isMain": false,
+          "simultaneous": false,
           "icon": {
             "id": "minecraft:diamond_ore",
             "Count": 1,
@@ -803,12 +803,12 @@
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
-          "globalShare": "false",
+          "globalShare": false,
           "questLogic": "AND",
           "name": "All you Ore",
-          "lockedProgress": "false",
-          "autoClaim": "true",
-          "isSilent": "false",
+          "lockedProgress": false,
+          "autoClaim": true,
+          "isSilent": false,
           "desc": "Diggin deeper and deeper into the ground you are discovering more and more resources that could really prove to be useful. How far can you go? What can you find?"
         }
       },
@@ -832,10 +832,13 @@
               "Damage": 4
             },
             {
-              "id": "ic2:resource",
+              "id": "betterquesting:placeholder",
               "Count": 16,
               "OreDict": "oreLead",
-              "Damage": 2
+              "Damage": 2,
+              "tag": {
+                "orig_id:8": "ic2:resource"
+              }
             },
             {
               "id": "libvulpes:ore0",
@@ -880,7 +883,9 @@
           "index": 0
         }
       ],
-      "preRequisites": [],
+      "preRequisites": [
+        2
+      ],
       "questID": 8
     },
     {
@@ -888,8 +893,8 @@
         "betterquesting": {
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
-          "isMain": "false",
-          "simultaneous": "false",
+          "isMain": false,
+          "simultaneous": false,
           "icon": {
             "id": "minecraft:bone",
             "Count": 1,
@@ -898,12 +903,12 @@
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
-          "globalShare": "false",
+          "globalShare": false,
           "questLogic": "AND",
           "name": "Kill Or Be Killed",
-          "lockedProgress": "false",
-          "autoClaim": "false",
-          "isSilent": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
           "desc": "What are these monsters?? Zombies? Walking skeletons? You must defend youself!"
         }
       },
@@ -1012,8 +1017,8 @@
         "betterquesting": {
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
-          "isMain": "false",
-          "simultaneous": "false",
+          "isMain": false,
+          "simultaneous": false,
           "icon": {
             "id": "minecraft:enchanting_table",
             "Count": 1,
@@ -1022,12 +1027,12 @@
           },
           "snd_update": "random.levelup",
           "repeatTime": -1,
-          "globalShare": "false",
+          "globalShare": false,
           "questLogic": "AND",
           "name": "Ancient Magic",
-          "lockedProgress": "false",
-          "autoClaim": "false",
-          "isSilent": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
           "desc": "Back on the station, there has always been talk of ancient magic. Can it be true?"
         }
       },
