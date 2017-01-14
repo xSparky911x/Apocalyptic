@@ -5,8 +5,10 @@
 * Upgraded Forge to 2202
 * Added Dark Utilities
 * Upgraded Better Questing
+* Upgraded Better Questing - RF Expansion
 * Upgraded Forestry
 * Upgraded RF Tools
+* Upgraded RF Tools Control
 * Upgraded Shadowfacts' Forgelin
 * Upgraded Ender IO
 * Upgraded Journeymap
@@ -14,6 +16,7 @@
 * Upgraded Actually Additions
 * Upgraded Apple Skin
 * Upgraded CodeChickenLib
+* Upgraded CodeChickenCore
 * Upgraded Ender Core
 * Upgraded Extra Utilities
 * Upgraded More Bees
@@ -30,6 +33,21 @@
 * Removed Inventory Tweaks - Buggy
 * Upgraded Craft Tweaker
 * Upgraded Sonar Core
+* Upgraded Tinkers Construct
+* Upgraded Gravestone Mod
+* Upgraded Mantle
+* Upgraded Better Combat Mod
+* Upgraded BDlib
+* Added Flux Networks
+* Upgraded RTG
+* Upgraded Sonar Core
+* Added libVulpes Aluminum Ore and Ingot to Immersive Engineering Crusher recipe
+* Changed vector plate recipes
+* Upgraded Storage Drawers
+* Upgraded Refined Storage
+* Upgraded MP Utils
+* Upgraded McJtylib
+
 
 [0.2.2]
 * Added harvestcraft seed drops to grass
