@@ -548,10 +548,10 @@
         {
           "rewards": [
             {
-              "id": "cookingforblockheads:recipeBook",
+              "id": "spiceoflife:bookfoodjournal",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item",
@@ -1070,6 +1070,155 @@
         8
       ],
       "questID": 10
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "isMain": true,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:flower",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Bouquet",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "There are so many different looking versions of these strange flowers. I wonder how many there is. I wonder how many I can gather."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12
+            },
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:lexicon",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 11
     }
   ],
   "questLines": [
@@ -1152,6 +1301,26 @@
       ],
       "lineID": 0,
       "order": 0
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "The Botanist",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "Flowers! They look a little different than what you had back home. There is a strange glow coming from some of them."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": -12,
+          "y": 0,
+          "id": 11
+        }
+      ],
+      "lineID": 1,
+      "order": 1
     }
   ],
   "format": "1.0.0"
