@@ -47,6 +47,13 @@
 * Upgraded Refined Storage
 * Upgraded MP Utils
 * Upgraded McJtylib
+* Changed quest reward for "I'm Hungry" from "Recipe Book" to "Food Journal"
+* Added Steam and Syngas to "harvestableGasses"
+* Removed IC2
+* Added Open Computers
+* Disabled Immersive Engineering ore generation in overworld
+* Added Inventory Sorter
+* Added all the ores to laser drill
 
 
 [0.2.2]
