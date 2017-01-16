@@ -3,6 +3,10 @@
 
 [0.2.4]
 * Upgraded to forge 2215
+* Upgraded Advanced Rocketry
+* Upgraded Chisels and Bits
+* Upgraded Ender IO
+* Upgraded JEI
 
 [0.2.3]
 * Upgraded Forge to 2202
