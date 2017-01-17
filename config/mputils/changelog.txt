@@ -7,6 +7,12 @@
 * Upgraded Chisels and Bits
 * Upgraded Ender IO
 * Upgraded JEI
+* Upgraded Inventory Sorter
+* Remove Minetweaker Recipe Maker
+* Upgraded McjtyLib
+* Upgraded Malisis Core
+* Upgraded Malisis Doors
+* Upgraded Better Questing
 
 [0.2.3]
 * Upgraded Forge to 2202
