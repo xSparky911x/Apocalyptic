@@ -29,3 +29,4 @@ TimeUsage.txt
 config/splash.properties
 config/chiselsandbits_clipboard.cfg
 *.log
+servers.dat
