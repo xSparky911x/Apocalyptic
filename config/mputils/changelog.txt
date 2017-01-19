@@ -13,6 +13,8 @@
 * Upgraded Malisis Core
 * Upgraded Malisis Doors
 * Upgraded Better Questing
+* Upgraded Foamfix
+* Upgraded More Bees
 
 [0.2.3]
 * Upgraded Forge to 2202
