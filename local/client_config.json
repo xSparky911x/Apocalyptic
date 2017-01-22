@@ -5,10 +5,10 @@
   },
   "sidebar_button": {
     "ftbu": {
-      "guide": true,
-      "trash_can": true,
+      "guide": false,
+      "trash_can": false,
       "server_info": true,
-      "shop": true,
+      "shop": false,
       "claimed_chunks": true
     },
     "ftbl": {
