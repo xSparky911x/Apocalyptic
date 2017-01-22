@@ -1,6 +1,29 @@
                               
                                   Welcome to §2§lApocalyptic§r§r
 
+[0.2.5]
+* Upgraded to Forge 2221
+* Upgraded Actually Additions
+* Upgraded Better Questing
+* Upgraded Better Questing STandard Expansion
+* Upgraded Botania
+* Upgraded Ender IO
+* Upgraded Ender Core
+* Upgraded Forestry
+* Upgraded Immersive Engineering
+* Upgraded IV Toolkit
+* Upgraded Journey Map
+* Upgraded Malisis Doors
+* Upgraded OMLib
+* Upgraded Open Modular Turrets
+* Upgraded Recurrent Complex
+* Upgraded RF Tools
+* Upgraded Cyclops Core
+* Upgraded Common Capabilities
+* Upgraded Integrated Dynamics
+* Upgraded Integrated Tunnels
+* Removed Iron Chests
+
 [0.2.4]
 * Upgraded to forge 2215
 * Upgraded Advanced Rocketry
