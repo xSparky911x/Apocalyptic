@@ -9,6 +9,7 @@
 * Upgraded Botania
 * Upgraded Ender IO
 * Upgraded Ender Core
+* Upgraded Extra Utilities
 * Upgraded Forestry
 * Upgraded Immersive Engineering
 * Upgraded IV Toolkit
@@ -22,7 +23,15 @@
 * Upgraded Common Capabilities
 * Upgraded Integrated Dynamics
 * Upgraded Integrated Tunnels
+* Upgraded InfinityLib
 * Removed Iron Chests
+* Removed Marble and Limestone from Quark (have enough versions of it)
+* Removed recipe for iChisel and hid from NEI/JEI due to crash
+* Removed recipe to turn Black Quartz Block back into Black Quartz from crafting table
+* Added Black Quartz Block to Black Quartz (x4) in Immersive Engineering Crusher
+* Removed Waila
+* Added HWYLA (A fork of Waila)
+* Added B.A.S.E. (combine all metals into 1!)
 
 [0.2.4]
 * Upgraded to forge 2215
