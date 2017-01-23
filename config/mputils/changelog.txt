@@ -30,8 +30,10 @@
 * Removed recipe to turn Black Quartz Block back into Black Quartz from crafting table
 * Added Black Quartz Block to Black Quartz (x4) in Immersive Engineering Crusher
 * Removed Waila
+* Removed Waila Harvestability as it is included in hwyla
 * Added HWYLA (A fork of Waila)
-* Added B.A.S.E. (combine all metals into 1!)
+* Removed RTG
+* Turned off Varied Chests from Quark due to a lot of recipes not working with anything but vanilla chests anyways
 
 [0.2.4]
 * Upgraded to forge 2215
