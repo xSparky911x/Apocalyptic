@@ -34,6 +34,8 @@
 * Added HWYLA (A fork of Waila)
 * Removed RTG
 * Turned off Varied Chests from Quark due to a lot of recipes not working with anything but vanilla chests anyways
+* Added Loamy Dirt to Digger's Backpack
+* Upgraded FoamFix
 
 [0.2.4]
 * Upgraded to forge 2215
