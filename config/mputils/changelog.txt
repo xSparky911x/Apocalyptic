@@ -50,7 +50,6 @@
 * Upgraded FTB Lib
 * Upgraded McJtyLib
 * Removed Lantern
-* Added Dynamic Lights
 * Added Iron Backpacks
 * Upgraded IVToolKit
 * Changed RF Tools Quarry to replace with Cobblestone instead of Dirt
