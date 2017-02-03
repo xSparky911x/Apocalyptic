@@ -1,6 +1,6 @@
-#mods.actuallyadditions.Crusher.remove(<immersiveengineering:metal:1>);
-#mods.actuallyadditions.Crusher.remove(<immersiveengineering:ore:1>);
-#mods.actuallyadditions.Crusher.remove(<libvulpes:productingot:9>);
-#mods.actuallyadditions.Crusher.remove(<libvulpes:ore0uu:9>);
+print("Initializing 'actuallyadditions.zs'...");
 
-#mods.immersiveengineering.Crusher.addRecipe(<libvulpes:productdust:9> * 2, <libvulpes:ore0:9>, 8000);
+//mods.actuallyadditions.Crusher.addRecipe(<actuallyadditions:blockMisc:2>, <actuallyadditions:itemMisc:5> * 4);
+//mods.actuallyadditions.Crusher.addRecipe(<minecraft:quartz_block>, <minecraft:quartz> * 4);
+
+print("Initialized 'actuallyadditions.zs'");

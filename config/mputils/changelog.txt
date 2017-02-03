@@ -1,6 +1,63 @@
                               
                                   Welcome to §2§lApocalyptic§r§r
 
+[0.2.5]
+* Upgraded to Forge 2221
+* Upgraded Actually Additions
+* Upgraded Better Questing
+* Upgraded Better Questing Standard Expansion
+* Upgraded Better Questing RF Expansion
+* Upgraded Botania
+* Upgraded Ender IO
+* Upgraded Ender Core
+* Upgraded Extra Utilities
+* Upgraded Forestry
+* Upgraded Immersive Engineering
+* Upgraded IV Toolkit
+* Upgraded Journey Map
+* Upgraded Malisis Doors
+* Upgraded OMLib
+* Upgraded Open Modular Turrets
+* Upgraded Recurrent Complex
+* Upgraded RF Tools
+* Upgraded Cyclops Core
+* Upgraded Common Capabilities
+* Upgraded Integrated Dynamics
+* Upgraded Integrated Tunnels
+* Upgraded InfinityLib
+* Removed Iron Chests
+* Removed Marble and Limestone from Quark (have enough versions of it)
+* Removed recipe for iChisel and hid from NEI/JEI due to crash
+* Removed recipe to turn Black Quartz Block back into Black Quartz from crafting table
+* Added Black Quartz Block to Black Quartz (x4) in Immersive Engineering Crusher
+* Removed Waila
+* Removed Waila Harvestability as it is included in hwyla
+* Added HWYLA (A fork of Waila)
+* Turned off Varied Chests from Quark due to a lot of recipes not working with anything but vanilla chests anyways
+* Added Loamy Dirt to Digger's Backpack
+* Upgraded FoamFix
+* Upgraded Advanced Rocketry
+* Upgraded Flux Networks
+* Upgraded LibVulpes
+* Upgraded Roguelike Dungeons
+* Upgraded Sonar Core
+* Upgraded BDLib
+* Upgraded Craft Tweaker
+* Upgraded Biomes O Plenty
+* Upgraded Dark Utilities
+* Upgraded Baubles
+* Upgraded FTB Utilities
+* Upgraded FTB Lib
+* Upgraded McJtyLib
+* Removed Lantern
+* Added Iron Backpacks
+* Upgraded IVToolKit
+* Changed RF Tools Quarry to replace with Cobblestone instead of Dirt
+* Upgraded Refined Storage
+* Upgraded InfinityLib
+* Upgraded JEI
+* Upgraded The Spice of Life
+
 [0.2.4]
 * Upgraded to forge 2215
 * Upgraded Advanced Rocketry
