@@ -5,7 +5,8 @@
 * Upgraded to Forge 2221
 * Upgraded Actually Additions
 * Upgraded Better Questing
-* Upgraded Better Questing STandard Expansion
+* Upgraded Better Questing Standard Expansion
+* Upgraded Better Questing RF Expansion
 * Upgraded Botania
 * Upgraded Ender IO
 * Upgraded Ender Core
@@ -32,10 +33,31 @@
 * Removed Waila
 * Removed Waila Harvestability as it is included in hwyla
 * Added HWYLA (A fork of Waila)
-* Removed RTG
 * Turned off Varied Chests from Quark due to a lot of recipes not working with anything but vanilla chests anyways
 * Added Loamy Dirt to Digger's Backpack
 * Upgraded FoamFix
+* Upgraded Advanced Rocketry
+* Upgraded Flux Networks
+* Upgraded LibVulpes
+* Upgraded Roguelike Dungeons
+* Upgraded Sonar Core
+* Upgraded BDLib
+* Upgraded Craft Tweaker
+* Upgraded Biomes O Plenty
+* Upgraded Dark Utilities
+* Upgraded Baubles
+* Upgraded FTB Utilities
+* Upgraded FTB Lib
+* Upgraded McJtyLib
+* Removed Lantern
+* Added Dynamic Lights
+* Added Iron Backpacks
+* Upgraded IVToolKit
+* Changed RF Tools Quarry to replace with Cobblestone instead of Dirt
+* Upgraded Refined Storage
+* Upgraded InfinityLib
+* Upgraded JEI
+* Upgraded The Spice of Life
 
 [0.2.4]
 * Upgraded to forge 2215
