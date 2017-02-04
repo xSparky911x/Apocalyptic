@@ -11,4 +11,7 @@ mods.immersiveengineering.Crusher.addRecipe(<libvulpes:productdust:9> * 2, <libv
 mods.immersiveengineering.Crusher.addRecipe(<libvulpes:productdust:9>, <libvulpes:productingot:9>, 3600);
 mods.immersiveengineering.Crusher.addRecipe(<actuallyadditions:itemMisc:5> * 4, <actuallyadditions:blockMisc:2>, 3200);
 
+//Squeezer
+mods.immersiveengineering.Squeezer.addRecipe(<actuallyadditions:itemCanolaSeed>, <liquid:plantoil> * 100, <actuallyadditions:itemMisc:13>, 240);
+
 print("Initialized 'immersiveengineering.zs'");
