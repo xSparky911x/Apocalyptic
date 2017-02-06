@@ -1,6 +1,10 @@
                               
                                   Welcome to §2§lApocalyptic§r§r
 
+[0.2.6]
+* Added Canola to Industrial Sqeezer recipes
+* Re-enabled Actually Additions crusher recipes for Quartz and Black Quartz blocks
+
 [0.2.5]
 * Upgraded to Forge 2221
 * Upgraded Actually Additions
