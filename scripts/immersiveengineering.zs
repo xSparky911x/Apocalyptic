@@ -1,5 +1,3 @@
-print("Initializing 'immersiveengineering.zs'...");
-
 //Crusher
 #OutputStack1, InputStack, Energy, OutputStack2, OutputStack2Chance //Chance in Decimals
 
@@ -13,5 +11,3 @@ mods.immersiveengineering.Crusher.addRecipe(<actuallyadditions:itemMisc:5> * 4, 
 
 //Squeezer
 mods.immersiveengineering.Squeezer.addRecipe(<actuallyadditions:itemCanolaSeed>, <liquid:plantoil> * 100, <actuallyadditions:itemMisc:13>, 240);
-
-print("Initialized 'immersiveengineering.zs'");
