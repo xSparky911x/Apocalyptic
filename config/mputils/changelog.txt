@@ -10,20 +10,26 @@
 * Added Decocraft
 * Upgraded Applecore
 * Upgraded Better Questing
+* Upgraded Better Questing - Standard Expansion
 * Upgraded Better Achievements
+* Upgraded Blood Magic
 * Upgraded Chest Transporter
+* Upgraded Chisel
+* Upgraded Chisel's and Bits
 * Upgraded CodeChickenCore
 * Upgraded CompatLayer
 * Upgraded Ender IO
 * Upgraded Ender Storage
 * Upgraded FTB Utilities
 * Upgraded FTB Lib
+* Upgraded Guide-API
 * Upgraded HWYLA
 * Upgraded Immersive Engineering
 * Upgraded InfinityLib
 * Upgraded IvToolkit
 * Upgraded JEI
 * Upgraded JER
+* Upgraded Journeymap
 * Upgraded Mantle
 * Upgraded McjtyLib
 * Upgraded NEI
@@ -35,7 +41,8 @@
 * Upgraded RF Tools
 * Upgraded RF Tools Control
 * Upgraded Sonar Core
-
+* Upgraded Tinkers Construct
+* Removed Lunchbox and Lunchbag recipes until dupe bug is fixed
 
 [0.2.5]
 * Upgraded to Forge 2221
