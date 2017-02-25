@@ -31,3 +31,4 @@ config/chiselsandbits_clipboard.cfg
 *.log
 servers.dat
 config/JEI/worldSettings.cfg
+config/chiselsandbits_clipboard.cfg
