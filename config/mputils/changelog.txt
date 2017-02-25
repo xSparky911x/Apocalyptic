@@ -43,6 +43,8 @@
 * Upgraded Sonar Core
 * Upgraded Tinkers Construct
 * Removed Lunchbox and Lunchbag recipes until dupe bug is fixed
+* Removed Better Questing and its mods
+* Removed Better Questing Trigerer
 
 [0.2.5]
 * Upgraded to Forge 2221
