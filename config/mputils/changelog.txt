@@ -1,6 +1,52 @@
                               
                                   Welcome to §2§lApocalyptic§r§r
 
+[0.2.6]
+* Upgraded to forge 2239
+* Added Canola to Industrial Sqeezer recipes
+* Re-enabled Actually Additions crusher recipes for Quartz and Black Quartz blocks
+* Disabled vanilla Ender Chests and the recipe for them
+* Disabled update notifications for EnderStorage and NEI
+* Set Crafting Tweaks config option to "buttons_only" for Refined Storage
+* Added Decocraft
+* Upgraded Applecore
+* Upgraded Better Questing
+* Upgraded Better Questing - Standard Expansion
+* Upgraded Better Achievements
+* Upgraded Blood Magic
+* Upgraded Chest Transporter
+* Upgraded Chisel
+* Upgraded Chisel's and Bits
+* Upgraded CodeChickenCore
+* Upgraded CompatLayer
+* Upgraded Ender IO
+* Upgraded Ender Storage
+* Upgraded FTB Utilities
+* Upgraded FTB Lib
+* Upgraded Guide-API
+* Upgraded HWYLA
+* Upgraded Immersive Engineering
+* Upgraded InfinityLib
+* Upgraded IvToolkit
+* Upgraded JEI
+* Upgraded JER
+* Upgraded Journeymap
+* Upgraded Mantle
+* Upgraded McjtyLib
+* Upgraded NEI
+* Upgraded OMLib
+* Upgraded Open Modular Passive Defense
+* Upgraded Open Modular Turrets
+* Upgraded Recurrent Complex
+* Upgraded Refined Storage
+* Upgraded RF Tools
+* Upgraded RF Tools Control
+* Upgraded Sonar Core
+* Upgraded Tinkers Construct
+* Removed Lunchbox and Lunchbag recipes until dupe bug is fixed
+* Removed Better Questing and its mods
+* Removed Better Questing Trigerer
+
 [0.2.5]
 * Upgraded to Forge 2221
 * Upgraded Actually Additions
