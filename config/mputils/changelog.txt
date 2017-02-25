@@ -2,6 +2,7 @@
                                   Welcome to §2§lApocalyptic§r§r
 
 [0.2.6]
+* Upgraded to forge 2239
 * Added Canola to Industrial Sqeezer recipes
 * Re-enabled Actually Additions crusher recipes for Quartz and Black Quartz blocks
 * Disabled vanilla Ender Chests and the recipe for them
