@@ -1,6 +1,10 @@
                               
                                   Welcome to §2§lApocalyptic§r§r
 
+[0.2.7]
+* Changed Advanced Rocketry recipes to recognize ore dictionary slabs
+* Allowed Arc Furnace Electrode Blueprint to be crafted
+
 [0.2.6]
 * Upgraded to forge 2239
 * Added Canola to Industrial Sqeezer recipes
