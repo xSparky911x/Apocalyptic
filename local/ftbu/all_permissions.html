@@ -9,6 +9,15 @@ td.none{background-color:#FF4242;}
 <tr><td>command.*</td><td class='op'>OP</td><td>
 <p>Permission for commands, if FTBU command overriding is enabled. If not, this node will be inactive</p>
 </td></tr>
+<tr><td>enderio.attack.blockkillerjoe</td><td class='all'>ALL</td><td>
+<p>Permission for the block blockKillerJoe of Ender IO to attack entities. Note: The GameProfile will be for the block owner, the EntityPlayer in the context will be the fake player.</p>
+</td></tr>
+<tr><td>enderio.attract.blockattractor</td><td class='all'>ALL</td><td>
+<p>Permission for the block blockAttractor of Ender IO to attract entities. Note: The GameProfile will be for the block owner, the EntityPlayer in the context will be the fake player.</p>
+</td></tr>
+<tr><td>enderio.farm.blockfarmstation</td><td class='all'>ALL</td><td>
+<p>Permission for the block blockFarmStation of Ender IO to farm land. This includes tilling, planting, harvesting and fertilizing. Only the base block of a plant will be checked, not the dirt block below it or the additional plant blocks above it. Note: The GameProfile will be for the block owner, the EntityPlayer in the context will be the fake player.</p>
+</td></tr>
 <tr><td>enderio.gui.gui_id_alloy_smelter</td><td class='all'>ALL</td><td>
 <p>Permission to open the GUI_ID_ALLOY_SMELTER GUI of Ender IO</p>
 </td></tr>
@@ -267,44 +276,290 @@ td.none{background-color:#FF4242;}
 <tr><td>enderio.wrench.blockzombiegenerator</td><td class='all'>ALL</td><td>
 <p>Permission to wrench-break the block blockZombieGenerator of Ender IO</p>
 </td></tr>
+<tr><td>ftbl.op_buttons</td><td class='op'>OP</td><td>
+<p>Node for displaying OP-specific buttons in inventory</p>
+</td></tr>
 <tr><td>ftbu.back.infinite</td><td class='none'>NONE</td><td>
 <p>Allow to use 'back' command infinite times</p>
-</td></tr>
-<tr><td>ftbu.claims.block.break.*</td><td class='op'>OP</td><td>
-<p>Permission for blocks that players can break in claimed chunks</p>
-</td></tr>
-<tr><td>ftbu.claims.block.break.graves.graveslave</td><td class='all'>ALL</td><td>
-<p></p>
-</td></tr>
-<tr><td>ftbu.claims.block.break.graves.gravestone</td><td class='all'>ALL</td><td>
-<p></p>
-</td></tr>
-<tr><td>ftbu.claims.block.break.graves.headstone</td><td class='all'>ALL</td><td>
-<p></p>
-</td></tr>
-<tr><td>ftbu.claims.block.break.gravestone.gravestone</td><td class='all'>ALL</td><td>
-<p></p>
 </td></tr>
 <tr><td>ftbu.claims.block.cnb</td><td class='op'>OP</td><td>
 <p>Allow to edit C&B bits in claimed chunks</p>
 </td></tr>
+<tr><td>ftbu.claims.block.edit.*</td><td class='op'>OP</td><td>
+<p>Permission for blocks that players can break and place within claimed chunks</p>
+</td></tr>
 <tr><td>ftbu.claims.block.interact.*</td><td class='op'>OP</td><td>
-<p>Permission for blocks that players can interact within claimed chunks</p>
+<p>Permission for blocks that players can right-click within claimed chunks</p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.advancedrocketry.airlock_door</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.biomesoplenty.cherry_door_block</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.biomesoplenty.ebony_door_block</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.biomesoplenty.ethereal_door_block</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.biomesoplenty.eucalyptus_door_block</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.biomesoplenty.fir_door_block</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.biomesoplenty.hellbark_door_block</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.biomesoplenty.jacaranda_door_block</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.biomesoplenty.magic_door_block</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.biomesoplenty.mahogany_door_block</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.biomesoplenty.mangrove_door_block</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.biomesoplenty.palm_door_block</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.biomesoplenty.pine_door_block</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.biomesoplenty.redwood_door_block</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.biomesoplenty.sacred_oak_door_block</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.biomesoplenty.umbran_door_block</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.biomesoplenty.willow_door_block</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.enderio.blockdarksteelanvil</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.acacia</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.balsa</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.baobab</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.cherry</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.chestnut</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.citrus</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.cocobolo</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.ebony</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.giganteum</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.greenheart</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.ipe</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.kapok</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.larch</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.lime</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.mahoe</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.mahogany</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.maple</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.padauk</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.palm</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.papaya</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.pine</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.plum</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.poplar</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.sequoia</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.teak</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.walnut</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.wenge</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.willow</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.forestry.doors.zebrawood</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.curtain_black</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.curtain_blue</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.curtain_brown</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.curtain_cyan</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.curtain_gray</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.curtain_green</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.curtain_light_blue</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.curtain_lime</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.curtain_magenta</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.curtain_orange</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.curtain_pink</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.curtain_purple</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.curtain_red</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.curtain_silver</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.curtain_white</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.curtain_yellow</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.customdoor</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.factory_door</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.iron_sliding_door</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.jail_door</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.laboratory_door</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.saloon</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.shoji_door</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.verticalhatch</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.malisisdoors.wood_sliding_door</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.minecraft.acacia_door</td><td class='all'>ALL</td><td>
+<p></p>
 </td></tr>
 <tr><td>ftbu.claims.block.interact.minecraft.anvil</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.minecraft.birch_door</td><td class='all'>ALL</td><td>
 <p></p>
 </td></tr>
 <tr><td>ftbu.claims.block.interact.minecraft.crafting_table</td><td class='all'>ALL</td><td>
 <p></p>
 </td></tr>
+<tr><td>ftbu.claims.block.interact.minecraft.dark_oak_door</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.minecraft.iron_door</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.minecraft.jungle_door</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.block.interact.minecraft.spruce_door</td><td class='all'>ALL</td><td>
+<p></p>
+</td></tr>
 <tr><td>ftbu.claims.block.interact.minecraft.wooden_door</td><td class='all'>ALL</td><td>
 <p></p>
 </td></tr>
-<tr><td>ftbu.claims.chunks.modify.others</td><td class='op'>OP</td><td>
+<tr><td>ftbu.claims.item.*</td><td class='all'>ALL</td><td>
+<p>Permission for items that players can right-click in air within claimed chunks</p>
+</td></tr>
+<tr><td>ftbu.claims.item.forge.bucketfilled</td><td class='op'>OP</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.item.minecraft.bucket</td><td class='op'>OP</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.item.minecraft.end_crystal</td><td class='op'>OP</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.item.minecraft.lava_bucket</td><td class='op'>OP</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.item.minecraft.water_bucket</td><td class='op'>OP</td><td>
+<p></p>
+</td></tr>
+<tr><td>ftbu.claims.modify.others</td><td class='op'>OP</td><td>
 <p>Allow player to modify other player's chunks</p>
 </td></tr>
-<tr><td>ftbu.claims.chunks.modify.self</td><td class='all'>ALL</td><td>
+<tr><td>ftbu.claims.modify.self</td><td class='all'>ALL</td><td>
 <p>Allow player to claim/unclaim his chunks</p>
+</td></tr>
+<tr><td>ftbu.claims.upgrade.*</td><td class='all'>ALL</td><td>
+<p>Permission for claimed chunk upgrades</p>
 </td></tr>
 <tr><td>ftbu.display.admin_info</td><td class='op'>OP</td><td>
 <p>Display 'Admin' in Server Info</p>

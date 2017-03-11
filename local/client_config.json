@@ -20,8 +20,9 @@
     "gui": {
       "info": {
         "border_width": 15,
-        "unicode": true,
-        "border_height": 15
+        "color_background": -527142,
+        "border_height": 15,
+        "color_text": -8690380
       },
       "enable_chunk_selector_depth": true
     },
