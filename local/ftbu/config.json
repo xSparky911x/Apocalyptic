@@ -5,6 +5,7 @@
     "enabled": true,
     "backup_timer": 2.0,
     "compression_level": 1,
+    "silent": false,
     "folder": "",
     "use_separate_thread": true
   },
@@ -24,18 +25,19 @@
   },
   "general": {
     "auto_restart": false,
+    "chat": {
+      "substitute_list": [
+        {
+          "key": "shrug",
+          "val": "¯\\_(ツ)_/¯"
+        }
+      ],
+      "substitute_prefix": "!"
+    },
     "server_info": {
       "admin_quick_access": true,
       "difficulty": true,
       "mode": true
-    },
-    "chat": {
-      "substitutes": [
-        {
-          "shrug": "¯\\_(ツ)_/¯"
-        }
-      ],
-      "substitute_prefix": "!"
     },
     "restart_timer": 12.0
   },
@@ -59,8 +61,8 @@
   },
   "login": {
     "motd": [],
-    "enable_motd": true,
-    "enable_starting_items": true,
+    "enable_motd": false,
+    "enable_starting_items": false,
     "starting_items": []
   }
 }

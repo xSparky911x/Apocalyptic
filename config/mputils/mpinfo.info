@@ -1,10 +1,11 @@
 {
   "name": "Apocalyptic",
   "description": "A post apocalyptic modpack",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "url": "https://minecraft.curseforge.com/projects/apocalyptic",
   "authorList": [
-    "xSparky911x"
+    "xSparky911x",
+    "Rue82"
   ],
-  "credits": "Rue82"
+  "credits": ""
 }

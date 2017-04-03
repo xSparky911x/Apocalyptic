@@ -1,6 +1,49 @@
                               
                                   Welcome to §2§lApocalyptic§r§r
 
+[0.2.7]
+* Upgraded to Forge 2254
+* Changed Advanced Rocketry recipes to recognize ore dictionary slabs
+* Allowed Arc Furnace Electrode Blueprint to be crafted
+* Removed Cyclops Core update notifications
+* Removed Integrated Dynamics update notifications
+* Removed Botania update notifications
+* Removed CodeChickenCore update notifications
+* Removed Commoncapabilities update notifications
+* Upgraded CodeChickenLib
+* Upgraded Craft Tweaker
+* Upgraded Cyclops Core
+* Upgraded Forestry
+* Upgraded FTB Utilities
+* Upgraded FTBLib
+* Upgraded Immersive Engineering
+* Upgraded Integrated Dynamics
+* Upgraded Iron Backpacks
+* Upgraded JEI
+* Upgraded The Spice of Life
+* Upgraded Biomes o Plenty
+* Upgraded Blood Magic
+* Upgraded Chest Transporter
+* Upgraded Ender Storage
+* Upgraded Mouse Tweaks
+* Upgraded RF Tools
+* Added HQM
+* Changed Chest Transporter to only allow Diamond Transporters to pick up Spawners
+* upgraded Ender IO
+* Upgraded ShadowFact's Forgelin
+* Upgraded Storage Drawers
+* Added Guide Book
+* Added Applied Energistics 2 (at least they know how to handle recipes)
+* Added Thermal Expansion
+* Added Thermal Foundation
+* Upgraded Bookshelf
+* Upgraded CoFH Core
+* Upgraded Cooking for Blockheads
+* Upgraded Dark Utilities
+* Upgraded Extra Utilities
+* Upgraded Botania
+* Upgraded Actually Additions
+
 [0.2.6]
 * Upgraded to forge 2239
 * Added Canola to Industrial Sqeezer recipes
