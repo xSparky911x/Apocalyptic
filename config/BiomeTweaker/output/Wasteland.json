@@ -88,5 +88,66 @@
     }
   ],
   "Spawn Biome": true,
-  "Tweaked": true
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "weighted",
+        "Name": "flowers"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "dead_grass"
+      },
+      {
+        "ID": "columns",
+        "Name": "stone_formations"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      },
+      {
+        "ID": "flora",
+        "Name": "desertgrass"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "lakes",
+        "Name": "poison_lakes"
+      },
+      {
+        "ID": "lakes",
+        "Name": "lakes"
+      },
+      {
+        "ID": "ore_single",
+        "Name": "ruby"
+      }
+    ],
+    "TREE Generators": [
+      {
+        "ID": "weighted",
+        "Name": "trees"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {
+    "WASTELAND": 50
+  },
+  "BOP Climate Weights": {
+    "WASTELAND": [
+      50
+    ]
+  }
 }

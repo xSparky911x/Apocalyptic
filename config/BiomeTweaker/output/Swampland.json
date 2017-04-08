@@ -44,6 +44,18 @@
       "Weight": 8,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "teamroots.roots.entity.EntityDeer",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "teamroots.roots.entity.EntitySprout",
+      "Weight": 6,
+      "Min Group Count": 3,
+      "Max Group Count": 7
     }
   ],
   "Spawnable Monsters": [
@@ -125,5 +137,111 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true
+  "Tweaked": true,
+  "BOP Generators": {
+    "LILYPAD Generators": [
+      {
+        "ID": "flora",
+        "Name": "medium_lily"
+      },
+      {
+        "ID": "flora",
+        "Name": "algae"
+      },
+      {
+        "ID": "flora",
+        "Name": "water_reeds"
+      },
+      {
+        "ID": "flora",
+        "Name": "small_lily"
+      },
+      {
+        "ID": "flora",
+        "Name": "flower_lily"
+      },
+      {
+        "ID": "flora",
+        "Name": "tiny_lily"
+      }
+    ],
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "cattail"
+      },
+      {
+        "ID": "weighted",
+        "Name": "flowers"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "columns",
+        "Name": "stone_formations"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      },
+      {
+        "ID": "flora",
+        "Name": "koru"
+      },
+      {
+        "ID": "double_flora",
+        "Name": "double_cattail"
+      }
+    ],
+    "GRASS Generators": [
+      {
+        "ID": "weighted",
+        "Name": "grass"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "ore_single",
+        "Name": "malachite"
+      }
+    ],
+    "SAND_PASS2 Generators": [
+      {
+        "ID": "waterside",
+        "Name": "mud"
+      }
+    ],
+    "SHROOM Generators": [
+      {
+        "ID": "flora",
+        "Name": "toadstools"
+      },
+      {
+        "ID": "flora",
+        "Name": "blue_milk_caps"
+      }
+    ],
+    "TREE Generators": [
+      {
+        "ID": "weighted",
+        "Name": "trees"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {
+    "COLD_SWAMP": [
+      5
+    ],
+    "HOT_SWAMP": [
+      5
+    ]
+  }
 }

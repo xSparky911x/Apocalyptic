@@ -28,8 +28,13 @@
 * Upgraded Storage Drawers
 * Upgraded Refined Storage
 * Upgraded RFTools
-* Upgraded Wawla
-
+* Removed Wawla
+* Upgraded BetterFPS
+* Upgraded Ender Storage
+* Upgraded Forestry
+* Upgraded JEI
+* Upgraded Open Modular Turrets
+* Removed InGameInfo
 
 
 [0.2.7]

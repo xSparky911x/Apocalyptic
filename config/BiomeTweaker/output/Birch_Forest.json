@@ -44,6 +44,18 @@
       "Weight": 8,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "teamroots.roots.entity.EntityDeer",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "teamroots.roots.entity.EntitySprout",
+      "Weight": 6,
+      "Min Group Count": 3,
+      "Max Group Count": 7
     }
   ],
   "Spawnable Monsters": [
@@ -119,5 +131,77 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": true
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "leaf_piles"
+      },
+      {
+        "ID": "weighted",
+        "Name": "flowers"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "dead_leaf_piles"
+      },
+      {
+        "ID": "flora",
+        "Name": "clover_patches"
+      },
+      {
+        "ID": "columns",
+        "Name": "stone_formations"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      },
+      {
+        "ID": "flora",
+        "Name": "poison_ivy"
+      },
+      {
+        "ID": "double_flora",
+        "Name": "flax"
+      }
+    ],
+    "GRASS Generators": [
+      {
+        "ID": "weighted",
+        "Name": "grass"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "ore_single",
+        "Name": "amber"
+      }
+    ],
+    "SHROOM Generators": [
+      {
+        "ID": "flora",
+        "Name": "toadstools"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {
+    "COOL_TEMPERATE": [
+      10
+    ],
+    "WARM_TEMPERATE": [
+      5
+    ]
+  }
 }
