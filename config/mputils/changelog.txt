@@ -1,6 +1,37 @@
                               
                                   Welcome to §2§lApocalyptic§r§r
 
+[0.2.8]
+* Upgraded to Forge 2272
+* Upgraded Advanced Rocketry
+* Added more ore's to asteroids for mining missions
+* Upgraded Blood Majic
+* Upgraded Bookshelf
+* Upgraded Biome Tweaker
+* Upgraded Chest Transporter
+* Upgraded Chisel
+* Upgraded CodeChickenCore
+* Upgraded Dark Utilities
+* Upgraded Decocraft
+* Upgraded Flux Netowrks
+* Upgraded FTB Utilities
+* Upgraded FTBLib
+* Upgraded HQM
+* Removed HWYLA
+* Added The One Probe
+* Upgraded InfinityLib
+* Upgraded Inventory Sorter
+* Upgraded Iron Backpacks
+* Upgraded LibVulpes
+* Upgeaded NEI
+* Upgraded Roots
+* Upgraded Shadowfacts' Forgelin
+* Upgraded Storage Drawers
+* Upgraded Refined Storage
+* Upgraded RFTools
+* Upgraded Wawla
+
+
 [0.2.7]
 * Upgraded to Forge 2254
 * Changed Advanced Rocketry recipes to recognize ore dictionary slabs
