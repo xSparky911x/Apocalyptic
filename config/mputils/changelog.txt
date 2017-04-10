@@ -4,7 +4,7 @@
 [0.2.8]
 * Upgraded to Forge 2272
 * Upgraded Advanced Rocketry
-* Added more ore's to asteroids for mining missions
+* Added more ore's to asteroids for mining missions (Rue82)
 * Upgraded Blood Majic
 * Upgraded Bookshelf
 * Upgraded Biome Tweaker
@@ -30,6 +30,9 @@
 * Upgraded Refined Storage
 * Upgraded RFTools
 * Upgraded Wawla
+* Added AE2 Stuff (jenfinite)
+* Added Malisis Blocks (elturista)
+* Removed InGameInfo (and plugins)
 
 
 [0.2.7]
@@ -60,7 +63,7 @@
 * Upgraded RF Tools
 * Added HQM
 * Changed Chest Transporter to only allow Diamond Transporters to pick up Spawners
-* upgraded Ender IO
+* Upgraded Ender IO
 * Upgraded ShadowFact's Forgelin
 * Upgraded Storage Drawers
 * Added Guide Book
