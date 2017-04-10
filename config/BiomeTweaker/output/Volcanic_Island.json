@@ -56,5 +56,42 @@
     }
   ],
   "Spawn Biome": true,
-  "Tweaked": true
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "columns",
+        "Name": "stone_formations"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      },
+      {
+        "ID": "splotches",
+        "Name": "lava_flows"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "lakes",
+        "Name": "lava_lakes"
+      },
+      {
+        "ID": "ore_single",
+        "Name": "ruby"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {}
 }

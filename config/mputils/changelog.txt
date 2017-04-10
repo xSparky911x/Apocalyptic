@@ -1,5 +1,5 @@
                               
-                                  Welcome to §2§lApocalyptic§r§r
+                                  Welcome to Â§2Â§lApocalypticÂ§rÂ§r
 
 [0.2.8]
 * Upgraded to Forge 2272
@@ -33,6 +33,13 @@
 * Added AE2 Stuff (jenfinite)
 * Added Malisis Blocks (elturista)
 * Removed InGameInfo (and plugins)
+* Removed Wawla
+* Upgraded BetterFPS
+* Upgraded Ender Storage
+* Upgraded Forestry
+* Upgraded JEI
+* Upgraded Open Modular Turrets
+
 
 
 [0.2.7]

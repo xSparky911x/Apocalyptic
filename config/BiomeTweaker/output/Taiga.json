@@ -57,6 +57,18 @@
       "Weight": 4,
       "Min Group Count": 2,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "teamroots.roots.entity.EntityDeer",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "teamroots.roots.entity.EntitySprout",
+      "Weight": 6,
+      "Min Group Count": 3,
+      "Max Group Count": 7
     }
   ],
   "Spawnable Monsters": [
@@ -138,5 +150,48 @@
     }
   ],
   "Spawn Biome": true,
-  "Tweaked": true
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "weighted",
+        "Name": "flowers"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "columns",
+        "Name": "stone_formations"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ],
+    "GRASS Generators": [
+      {
+        "ID": "weighted",
+        "Name": "grass"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "ore_single",
+        "Name": "tanzanite"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {
+    "BOREAL": [
+      20
+    ]
+  }
 }
