@@ -1,6 +1,43 @@
                               
                                   Welcome to §2§lApocalyptic§r§r
 
+[0.2.9]
+* Added other planets and space stations to recurrent complex blacklist (Rue82)
+* Added Solar Flux Reborn
+* Added Xnet
+* Added The Beginning quest line
+* Added InGameInfo back in but configured to take less screen real estate
+* Upgraded Advanced Rocketry
+* Upgraded Chest Transporter
+* Upgraded Chisel
+* Upgraded Code Chicken Lib
+* Upgraded Common Capabilities
+* Upgraded Cooking for Blockheads
+* Upgraded Custom Main Menu
+* Upgraded Cyclops Core
+* Upgraded DecoCraft
+* Upgraded Ender IO
+* Upgraded Extra Utilities
+* Upgraded Flux Networks
+* Upgraded Forestry
+* Upgraded FTB Utilities
+* Upgraded FTB Lib
+* Upgraded Hardcore Darkness
+* Upgraded Integrated Dynamics
+* Upgraded Integrated Tunnels
+* Upgraded JEI
+* Upgraded LibVulpes
+* Upgraded NEI
+* Upgraded OMLib
+* Upgraded Open Modular Turrets
+* Upgraded RF Tools
+* Upgraded Shadowfact's Forgelin
+* Upgraded Sonar Core
+* Upgraded Storage Drawers
+* Upgraded The One Probe
+* Upgraded Xnet
+
+
 [0.2.8]
 * Upgraded to Forge 2272
 * Upgraded Advanced Rocketry
